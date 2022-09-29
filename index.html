@@ -6,9 +6,92 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Calculator</title>
+    <!-- tailwindcss  -->
+    <script src="https://cdn.tailwindcss.com"></script>
 </head>
 
 <body>
+    <header>
+        <section class="mx-20 mt-20 w-auto bg-lime-400">
+            <h1 class="text-6xl text-center py-3">Calculator</h1>
+        </section>
+    </header>
+
+    <main>
+        <!-- display section  -->
+        <section class="mx-20 mt-5 w-auto py-3 border-2 border-black">
+            <!-- calculation display -->
+            <div class="mx-2 border border-gray text-right p-2">
+                <div>
+                    <h1 class="text-3xl">00</h1>
+                </div>
+
+                <!-- result display -->
+                <div>
+                    <h1 class="text-4xl">00</h1>
+                </div>
+            </div>
+
+            <div class="border mt-3"></div>
+
+            <!-- button  -->
+
+            <section class="border border-gray mt-3 mx-2">
+                <div class="grid grid-cols-4 gap-4">
+                    <button class=" text-black font-bold py-2 px-4 rounded-full">
+                        1
+                    </button>
+                    <button class=" text-black font-bold py-2 px-4 rounded-full">
+                        2
+                    </button>
+                    <button class=" text-black font-bold py-2 px-4 rounded-full">
+                        3
+                    </button>
+                    <button class=" text-black font-bold py-2 px-4 rounded-full">
+                        /
+                    </button>
+                    <button class=" text-black font-bold py-2 px-4 rounded-full">
+                        4
+                    </button>
+                    <button class=" text-black font-bold py-2 px-4 rounded-full">
+                        5
+                    </button>
+                    <button class=" text-black font-bold py-2 px-4 rounded-full">
+                        6
+                    </button>
+                    <button class=" text-black font-bold py-2 px-4 rounded-full">
+                        *
+                    </button>
+                    <button class=" text-black font-bold py-2 px-4 rounded-full">
+                        7
+                    </button>
+                    <button class=" text-black font-bold py-2 px-4 rounded-full">
+                        8
+                    </button>
+                    <button class=" text-black font-bold py-2 px-4 rounded-full">
+                        9
+                    </button>
+                    <button class=" text-black font-bold py-2 px-4 rounded-full">
+                        -
+                    </button>
+                    <button class=" text-black font-bold py-2 px-4 rounded-full">
+                        C
+                    </button>
+                    <button class=" text-black font-bold py-2 px-4 rounded-full">
+                        0
+                    </button>
+                    <button class=" text-black font-bold py-2 px-4 rounded-full">
+                        =
+                    </button>
+                    <button class=" text-black font-bold py-2 px-4 rounded-full">
+                        +
+                    </button>
+                </div>
+            </section>
+        </section>
+    </main>
+
+
 
 </body>
 
